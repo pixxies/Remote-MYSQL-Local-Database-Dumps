@@ -1,0 +1,17 @@
+{
+    "backup_filename_prefix": "bot_name_here",
+    "mysql":
+        {
+            "host": "db.host.tld",
+            "user": "db_user",
+            "password": "db_pass",
+            "database": "db_name"
+        },
+    "discord": 
+        { 
+            "webhook": "https://discord.com/api/webhooks/CHANNEL_ID/WEBHOOK",
+            "username": "Webhook Name",
+            "owner_id": "bot_owner_discord_id"
+        },
+    "days_to_keep": 1
+}

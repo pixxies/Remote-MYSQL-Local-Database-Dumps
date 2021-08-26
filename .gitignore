@@ -1,0 +1,10 @@
+.config.json
+
+!/node_modules/
+/node_modules/**
+
+# Include the modified mysqldump package for node v16
+!/node_modules/mysqldump/
+
+# Keep this directory for database dumps
+/backups/**
