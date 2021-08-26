@@ -1,4 +1,5 @@
 /config.json
+/custom_index.js
 
 !/node_modules/
 /node_modules/**
