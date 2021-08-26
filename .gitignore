@@ -1,11 +1,10 @@
 /config.json
 /custom_index.js
 
-!/node_modules/
-/node_modules/**
-
 # Include the modified mysqldump package for node v16
-!/node_modules/mysqldump/
+node_modules/*
+!node_modules/mysqldump/
 
 # Keep this directory for database dumps
-/backups/**
+backups/*
+!backups/.gitkeep 
