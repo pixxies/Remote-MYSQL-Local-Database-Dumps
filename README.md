@@ -43,6 +43,8 @@ You'll need to create a Discord webhook in a channel and paste the link into the
 
 The `owner_id` is the Discord ID of the person the webhook will ping for notifications. You can make the webhook ping a role instead by prefixing a role ID with `&`, for example `&761916863847333928`.
 
+Set the number of days to keep old dumps with the `days_to_keep` value in your `config.json` file.
+
 ### Startup
 
 1. Open a new terminal window in your project directory.
